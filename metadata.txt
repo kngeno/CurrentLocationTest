@@ -1,0 +1,40 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Current Location Test
+qgisMinimumVersion=2.0
+description=A single click action
+for creating a new shapefile with predefined characteristics
+version=0.1
+author=Kevin Ng'eno
+email=kngeno.kevin@gmail.com
+
+about=A Python QGIS plugin which contains a single click action for creating a new shapefile with the following characteristics: POINT geometry type Contains a single feature with the following coordinates – X: 36.5 Y: -0.43 (coordinates are in WGS 84 datum) Contains a single column of DATE data type which is populated with the current date when the point feature (above) is created File name – current_point_feature.shp
+
+tracker=https://github.com/kngeno/CurrentLocationTest/tracker
+repository=https://github.com/kngeno/CurrentLocationTest
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=python
+
+homepage=http://homepage
+category=Vector
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
